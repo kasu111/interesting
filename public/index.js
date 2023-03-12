@@ -1,6 +1,6 @@
 
 // const url = 
-// 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=1EYq8V9rjdFwVdk7mhQz7rqNYwTxttUVSalH2D5t'
+// 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=yourkeyhere'
 // const request = new Request(url)
 
 // async function getData(){

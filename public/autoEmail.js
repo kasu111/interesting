@@ -34,11 +34,11 @@ function sendEmail() {
 
     Email.send({
         Host: "smtp.elasticemail.com",
-        port: "2525",
-        Username: "carloschan11111@gmail.com",
-        Password: "A51E4E065C3C2ABD86E1C1DE9C94BBA08177",
-        To: "carloschan111@gmail.com",
-        From: "carloschan11111@gmail.com",
+        port: "",
+        Username: "@gmail.com",
+        Password: "",
+        To: "@gmail.com",
+        From: "@gmail.com",
         Subject: "Today weather",
         Body: `${dailyReport.innerHTML}`,
     }).then((message) => alert(message));
